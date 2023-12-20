@@ -5,6 +5,13 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "ServoSwitch")
+    (date "2023-12-20")
+    (rev "0.1")
+    (company "AntTronics")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -7153,6 +7160,9 @@
   )
   (gr_text "+" (at 203.708 117.094 180) (layer "F.SilkS") (tstamp f45dadfb-0f18-43e1-a659-89ba66f8a8ff)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text "SPDX-FileCopyrightText: 2023 Antonios Vamporakis <ant@anttronics.com>\nSPDX-License-Identifier: CERN-OHL-W-2.0+\n\nYou may redistribute and modify this documentation and make products\nusing it under the terms of the CERN-OHL-W v2 (https:/cern.ch/cern-ohl).\nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED\nWARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY\nAND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-W v2\nfor applicable conditions.\n\nSource location: https://github.com/anttronics/SolarTrackerSensor\n\nAs per CERN-OHL-W v2 section 4.1, should You produce hardware based on\nthese sources, You must maintain the Source Location visible on the\nexternal case of the ServoSwitch or other product you make using\nthis documentation.\n" (at 236.5 177) (layer "Cmts.User") (tstamp 55423824-ec03-43b4-98e1-53e95552abf0)
+    (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left))
   )
 
   (segment (start 183.75 58.29) (end 184.55 58.29) (width 0.3) (layer "F.Cu") (net 1) (tstamp 02fa059f-c8ae-45bd-8981-5be1752ed3ab))

@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "ServoSwitch")
+    (date "2023-12-20")
+    (rev "0.1")
+    (company "AntTronics")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_01x03_Male" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 5.08 0)
@@ -2276,6 +2283,11 @@
   (text "* 10u close\n  to VDD3" (at 73.66 22.86 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7066f4e8-97ad-4753-bb39-be9d04d6d47e)
+  )
+  (text "SPDX-FileCopyrightText: 2023 Antonios Vamporakis <ant@anttronics.com>\nSPDX-License-Identifier: CERN-OHL-W-2.0+\n\nYou may redistribute and modify this documentation and make products\nusing it under the terms of the CERN-OHL-W v2 (https:/cern.ch/cern-ohl).\nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED\nWARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY\nAND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-W v2\nfor applicable conditions.\n\nSource location: https://github.com/anttronics/SolarTrackerSensor\n\nAs per CERN-OHL-W v2 section 4.1, should You produce hardware based on\nthese sources, You must maintain the Source Location visible on the\nexternal case of the ServoSwitch or other product you make using\nthis documentation.\n"
+    (at 236.22 186.69 0)
+    (effects (font (size 0.8 0.8)) (justify left bottom))
+    (uuid 93ffad1a-6bff-4b74-b801-425c4ffe8171)
   )
   (text "6V - 18V" (at 180.975 113.665 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
